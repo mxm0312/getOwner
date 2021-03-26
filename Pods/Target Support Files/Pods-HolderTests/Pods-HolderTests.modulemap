@@ -1,0 +1,6 @@
+framework module Pods_HolderTests {
+  umbrella header "Pods-HolderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
