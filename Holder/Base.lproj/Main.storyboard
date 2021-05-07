@@ -628,6 +628,7 @@
                                 <constraints>
                                     <constraint firstItem="1DW-PB-rgM" firstAttribute="centerY" secondItem="8eb-VK-oiN" secondAttribute="centerY" id="7Wk-KL-XSN"/>
                                     <constraint firstAttribute="trailing" secondItem="JDR-ac-oZ0" secondAttribute="trailing" constant="8" id="IaM-KG-REA"/>
+                                    <constraint firstItem="fFN-dA-EBS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1DW-PB-rgM" secondAttribute="trailing" constant="16" id="OQC-rY-VdA"/>
                                     <constraint firstItem="JDR-ac-oZ0" firstAttribute="centerY" secondItem="fFN-dA-EBS" secondAttribute="centerY" id="Op6-HS-Dyh"/>
                                     <constraint firstItem="JDR-ac-oZ0" firstAttribute="leading" secondItem="fFN-dA-EBS" secondAttribute="trailing" constant="16" id="SiN-nt-0wp"/>
                                     <constraint firstItem="1DW-PB-rgM" firstAttribute="leading" secondItem="8eb-VK-oiN" secondAttribute="trailing" constant="8" id="Uw8-yq-I14"/>
@@ -1041,8 +1042,11 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06a-I9-tzM">
-                                        <rect key="frame" x="366" y="16" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <rect key="frame" x="329" y="16" width="83" height="33"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="17"/>
+                                        <state key="normal" title="Изменить">
+                                            <color key="titleColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
                                         <connections>
                                             <action selector="change:" destination="7DA-sA-NDg" eventType="touchUpInside" id="Q6x-Pe-iv6"/>
                                         </connections>
@@ -1131,8 +1135,9 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ER-0c-Au8">
-                                        <rect key="frame" x="343" y="16" width="69" height="30"/>
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ER-0c-Au8">
+                                        <rect key="frame" x="331" y="16" width="81" height="33"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="17"/>
                                         <state key="normal" title="изменить">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>

@@ -5,6 +5,8 @@
 //  Created by Maxim Perehod on 13.11.2020.
 //
 
+
+import GoogleMobileAds
 import UIKit
 import FirebaseDatabase
 import FirebaseStorage
@@ -21,7 +23,7 @@ var number: String?
 var userCount: Int?
 
 
-class HomeViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
+class HomeViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource, GADInterstitialDelegate {
     
     
     
@@ -40,21 +42,35 @@ class HomeViewController: UIViewController, UITextFieldDelegate, UITableViewDele
     @IBOutlet var chatButton: UIButton!
     @IBOutlet var regField: UITextField!
     @IBOutlet var subViewHeight: NSLayoutConstraint!
-    
     @IBOutlet var whiteViewHeight: NSLayoutConstraint!
     
-    
-    enum UITextAutocapitalizationType : Int {
-    case None
-    case Words
-    case Sentences
-    case AllCharacters
+    // MARK: - AdMod
+    private var interstitial: GADInterstitial!
+    // РЕКАЛМА
+    func createAndLoadInterstitial() -> GADInterstitial {
+      var interstitial = GADInterstitial(adUnitID: "ca-app-pub-7347676770854701/2201360960")
+      interstitial.delegate = self
+      interstitial.load(GADRequest())
+      return interstitial
     }
-    
-    
+
+    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+      interstitial = createAndLoadInterstitial()
+    }
+    // РЕКЛАМА
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // РЕКЛАМА
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-7347676770854701/2201360960")
+        let request = GADRequest()
+        interstitial.load(request)
+        interstitial = createAndLoadInterstitial()
+        // РЕКЛАМА
+        
+        
+          
         
         setupUI()
         numberField.autocapitalizationType = .allCharacters
@@ -110,7 +126,12 @@ class HomeViewController: UIViewController, UITextFieldDelegate, UITableViewDele
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         if numberField.text != "" && regField.text != "" {
-            
+            // MARK: - AdMob
+            if interstitial.isReady {
+              interstitial.present(fromRootViewController: self)
+            } else {
+              print("Ad wasn't ready")
+            }
             
             AudioServicesPlaySystemSound(1520)
             

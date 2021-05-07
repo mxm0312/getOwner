@@ -187,12 +187,12 @@ class ProfileViewController: UIViewController {
             
             UIView.animate(withDuration: 0.2, delay: 0.0, options: .curveEaseOut, animations: {
                 
-                self.firstCarCard.backgroundColor = UIColor(hexString: "#202020")
-                self.firstCarNameLabel.textColor = UIColor(hexString: "#FFFFFF")
-                self.numberField.textColor = UIColor(hexString: "#FFFFFF")
-                self.colorLabel.textColor = UIColor(hexString: "#FFFFFF")
-                self.gosNumberLabel.textColor = UIColor(hexString: "#FFFFFF")
-                self.changeButton.titleLabel?.textColor = UIColor(hexString: "#FFFFFF")
+//                self.firstCarCard.backgroundColor = UIColor(hexString: "#202020")
+//                self.firstCarNameLabel.textColor = UIColor(hexString: "#FFFFFF")
+//                self.numberField.textColor = UIColor(hexString: "#FFFFFF")
+//                self.colorLabel.textColor = UIColor(hexString: "#FFFFFF")
+//                self.gosNumberLabel.textColor = UIColor(hexString: "#FFFFFF")
+                //self.changeButton.titleLabel?.textColor = UIColor(hexString: "#FFFFFF")
                 
                 self.gosNumberLabel.alpha = 0
                 self.colorLabel.alpha = 0
