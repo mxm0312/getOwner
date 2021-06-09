@@ -13,9 +13,13 @@ class TermsOfUseViewController: UIViewController {
         super.viewDidLoad()
         overrideUserInterfaceStyle = .light
 
-        // Do any additional setup after loading the view.
+       
     }
     
-
+    @IBAction func submit(_ sender: Any) {
+        termsAccepted = true
+        dismiss(animated: true, completion: nil)
+    }
+    
 
 }

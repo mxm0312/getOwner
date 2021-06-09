@@ -24,6 +24,268 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Terms Of Use View Controller-->
+        <scene sceneID="w0J-RE-rQJ">
+            <objects>
+                <viewController storyboardIdentifier="terms" id="59F-F6-r6O" customClass="TermsOfUseViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vdZ-5z-yGC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пользовательское соглашение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FE4-eF-71E">
+                                <rect key="frame" x="52" y="108" width="324" height="25"/>
+                                <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="20"/>
+                                <color key="textColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98o-xh-sLM">
+                                <rect key="frame" x="345" y="60" width="67" height="32"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                <state key="normal" title="Принять"/>
+                                <connections>
+                                    <action selector="submit:" destination="59F-F6-r6O" eventType="touchUpInside" id="fxi-Jb-uz6"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fVr-vV-jm2">
+                                <rect key="frame" x="16" y="149" width="396" height="743"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="РЕЗЮМЕ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Ниже мы приводим некоторые ключевые положения нашей Политики конфиденциальности. Настоящее резюме приводится только для вашего сведения, и оно не является частью Политики конфиденциальности.
+В GetOwner мы слушаем наших пользователей, и мы намерены защищать принципы конфиденциальности и честного использования, которые лежат в основе наших ценностей, согласно которым мы предлагаем прозрачный и безопасный сервис. Мы хотим, чтобы вы были уверены, что Ваши персональные данные находятся в безопасности и надежно хранятся.
+Данная Политика конфиденциальности объясняет следующее:
+как мы собираем ваши персональные данные;
+какие персональные данные мы собираем;
+как мы используем Ваши персональные данные;
+с кем мы делимся Вашими персональными данными; 
+права и выбор, который у Вас существует в отношении Ваших персональных данных;
+Политика конфиденциальности
+Последние изменения внесены: 01 января 2021 года 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="1. Кто мы?">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Когда мы говорим “GetOwner”, “наше,” “мы,” или “нас”, мы говорим о физическом лице Переходкин Максим Вадимович. Настоящая Политика конфиденциальности («Политика конфиденциальности”) применяется ко всем нашим приложениям, сервисам, играм, функциям, программному обеспечению и веб-сайту (далее совместно именуемым “Сервисы”) если не указано иное.
+Данная Политика конфиденциальности поясняет, как мы будем использовать Ваши персональные данные, а также шаги, которые мы предпримем, чтобы обеспечить безопасное и надежное хранение Ваших персональных данных. Данный документ должен читаться вместе с нашими Условиями предоставления Сервиса. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="2. Как мы собираем Ваши персональные данные?">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Только при условии получения Вашего предварительного четкого и утвердительного согласия, мы можем получить персональные данные от Вас посредством наших веб-сайтов, мобильных приложений и иных подобных устройств, каналов или приложений, оператором которых является GerOwner, или управляемых от нашего имени. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="3. Какие персональные данные мы собираем?">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Мы собираем Ваши персональные данные, когда Вы соглашайтесь предоставлять их нам в ходе регистрации в отношении и/или в ходе использования Сервисов, например, мы можем получить ваше имя, номер телефона, государственный регистрационный номер и марку вашего автомобиля, адрес электронной почты.
+Заметьте, что вы несете ответственность за проверку и обеспечение того, чтобы вся информация, контент, материалы или данные, которые вы нам предоставляете, были верными, полными, точными и не вводящими в заблуждение.
+Мы не намерены собирать персональные данные лиц, не являющихся пользователями Сервиса, и не несем ответственность за разглашение информации о частной жизни (в том числе персональных данных) третьих лиц в результате ваших действий в процессе использования Сервиса.
+Информация, которую Вы можете предоставить добровольно
+Определенные части наших Сервисов могут попросить Вас предоставить персональные данные добровольно. Например, мы запросим определенные данные с тем, чтобы вы зарегистрировали учетную запись у нас, чтобы Вы могли начать использование Сервисов, чтобы подписаться на маркетинговую рассылку от нас, и/или предоставлять нам запросы, такие, как:
+Контактную информацию и данные для ведения корреспонденции (такие, как имя и электронный адрес);
+Имя пользователя и пароль;
+Государственный регистрационный номер и марку автомобиля;
+Информацию о профиле (такую, как фото профиля и биографию); 
+Иные данные, которые вы решите нам дать (такие, как данные для идентификации утерянной учетной записи).
+Персональные данные, которые Вас попросят предоставить, а также причины, по которым Вас попросили предоставить их, мы попробуем объяснить в момент, когда мы просим предоставить Ваши персональные данные.
+Вы также можете предоставить нам информацию в связи с вашим взаимодействием с нашими Сервисами. Например, Вы можете установить флажок с использованием наших функций, и пометить телефонный номер как спам, или поделиться с нами другой информацией из профиля, которая должна собираться и проверяться в нашем поисковом справочнике для целей оптимизации наших Сервисов и для целей предотвращения потенциального мошенничества или нежелательного спама для активных пользователей сообщества GetOwner.
+Когда Вы получаете наш Сервис с помощью Google Play или Apple App Store, мы будем использовать только разрешенную и общедоступную информацию для оптимизации наших Сервисов.
+Мы не публикуем и не раскрываем непредназначенные для широкой общественности контакты или персональные данные без явного разрешения осуществить это.
+Информация, которая может быть собрана автоматически
+Когда Вы используете наш Сервис, мы также можем автоматически собирать данные от Вас и/или с Вашего устройства, которые могут считаться персональными данными в соответствии с применимыми законами о защите персональных данных, такие как:
+Данные и аналитику об использовании Вами наших Сервисов;
+Ваш IP адрес и идентификаторы мобильного устройства, такие, как идентификационный номер Вашего устройства, МАС-адрес, IMEI);
+Данные о Вашем устройстве, такие, как наименование устройства и операционной системы, тип браузера и язык;
+Данные, которые мы собираем при помощи cookie-файлов и подобных технологий;
+Широкое географическое местонахождение, на основании Вашего IP адреса;
+Точные данные по геолокации (GPS с Вашего согласия); и
+Данные об использовании Вами наших Сервисов, такие, как взаимодействие с приложением и определение параметров использования.
+Рекламный идентификатор означает Идентификатор Apple для рекламодателей (“IDFA”) на устройствах Apple и Google Advertising Identity (“GAID”) (Идентификатор Google для рекламодателей). Это – уникальные идентификаторы для мобильного устройства, которые рекламодатели используют для рекламы на основании интересов пользователя. Они используются во всех приложениях, и таким образом позволяют отслеживать все приложения. На устройствах Apple Вы можете отказаться от данной функции, выбрав опцию “limit ad tracking” («ограничить отслеживание рекламы») в настройках конфиденциальности. На устройствах с Google Android Вы можете отказаться от данной опции, выбрав пункт «Ограничить показ рекламы на основе интересов» (Opt-out of interest based ads).
+Рекламные идентификаторы являются непостоянными, неличными идентификаторами, которые уникальным образом ассоциируются с Вашим устройством. Подобные технологии включают в себя отслеживающие пиксели в рекламных объявлениях. Эти технологии позволяют компаниям (включая специалистов по маркетингу и рекламодателей) распознать Ваше устройство, когда Вы используете веб-сайты и приложения. 
+К данным о Вашем устройстве относится информация о типе Вашего устройства, модели устройства, производителе оборудования, операционной системе устройства и ее языке или другие технические данные, как размер экрана или процессор или комбинация этих данных, которые разработчик может получить от устройства для проверки совместимости устройства с определенным приложением.
+Часть этой информации может быть собрана с использованием куки файлов и/или подобных технологий (таких, как "SDKs" или комплекты разработчика программного обеспечения), как это объясняется далее.
+Информация, которую мы можем получить из независимых источников
+Мы можем получить Ваши персональные данные из независимых источников. Например, если Вы кликнули по рекламе, чтобы перейти к одному из наших Сервисов, нам может быть предоставлена информация, из какой рекламной сети и рекламной кампании была получена установка.
+Вы можете подключиться к нашим Сервисам через Вашу учетную запись в социальной сети. Какую именно информацию мы получим от Ваших социальных сетей, будет зависеть от Ваших настроек конфиденциальности в социальных сетях, но она обычно будет включать в себя Вашу основную общедоступную информацию о профиле, такую как:
+Ваше имя пользователя;
+фотография профиля;
+возрастная группа; 
+пол
+Данные, которые мы можем получить от наших партнеров, могут включать в себя;
+Данные, которые мы получаем, если Вы соединяете сторонние инструменты с нашими Сервисами (такие как Facebook, Apple или Google);
+Демографические данные (например, определение местонахождения Вашего IP-адреса);
+Данные, чтобы противостоять мошенничеству (такие как клик-фрод в рекламе);
+Данные от платформ, на которых работают наши Сервисы (например, для проверки оплаты); 
+Данные для целей рекламы и аналитики, чтобы мы могли оптимизировать Сервисы, которые мы предоставляем Вам.
+Мы не запрашиваем и не намереваемся собирать любую информацию, относящуюся к специальным или чувствительным категориям, любую информацию о здоровье, расе, религии, политических мнениях, сексуальных предпочтениях или ориентации. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="4. Как мы используем Ваши персональные данные?">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="Arial-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+При условии получения вашего предварительного согласия, мы можем использовать Ваши персональные данные:
+1. чтобы предоставить Вам доступ и возможность использования Сервисов. Например;
+Для создания учетных записей пользователей и профилей;
+Для идентификации и связи с владельцем автомобиля посредством телефонной связи или непосредственно через встроенные в Сервисы чаты;
+Для предоставления Вам корректных версий наших приложений; и
+Для отправки Вам сообщений, связанных с сервисами, включая подтверждения, технические уведомления, обновления, предупреждения системы безопасности и сообщения службы поддержки или административные сообщения.
+Более подробно, мы можем использовать Ваши персональные данные для задействования нашей встроенной в приложение функции определения и верификации номеров, которая позволяет верифицировать неизвестные номера и иную информацию в списках звонков и сообщений, включая идентификацию имен и тэгов, ассоциируемых с конкретным номером, связанных с входящими и исходящими звонками на Вашем устройстве. Данная функция раскрывает персональные данные, связанные с номером, только если номер уже доступен для поиска в публичных базах данных или если номер ассоциирован с пользователем GetOwner, который предоставил свое согласие на поиск и публикацию его/ее номера и данных профиля в базе GetOwner.
+2. для персонализации и улучшения аспектов наших Сервисов. Например; 
+Чтобы ответить на Ваши запросы в службу поддержки клиентов;
+Чтобы получать сообщения об ошибках и любых проблемах, с которыми Вы / Ваше устройство сталкивается при использовании наших Сервисов, чтобы позволить нам исправить ошибки и проблемы функциональной совместимости;
+Чтобы обнаружить и предотвратить незаконную деятельность;
+Отслеживать установки приложения, в целях измерения эффекта от наших маркетинговых кампаний;
+Провести выборочные обзоры отзывов пользователей;
+Чтобы помнить Вас в следующий раз, когда Вы посещаете один из наших Сервисов; 
+Чтобы сообщать Вам о рекламных акциях, вознаграждениях, предстоящих событиях, а также другие новости о продуктах и услугах, предлагаемых нами. 
+3. чтобы связываться с Вами, включая по некоторым или всем из следующих вопросов:
+Предоставлять Вам предложения в приложении и вознаграждения на основе Вашего взаимодействия с нашими Сервисами;
+Предоставлять Вам соответствующую целевую рекламу; 
+Отправлять Вам маркетинговые сообщения и/или новостные рассылки, если Вы подписались на них, о вознаграждениях и рекламных акциях.
+4. для проведения исследований, таких как анализ рыночной конъюнктуры и демографии потребителей;
+5. для соблюдения юридических обязательств, включая предотвращение и/или обнаружение случаев мошенничества, или обеспечить раскрытие данных компетентным органам, когда это требуется в соответствии действующим законодательством.
+При использовании наших Сервисов, Вы вправе не разрешить использование Ваших персональных данных для рекламных целей. Если и когда Вы предоставите соответствующее разрешение, Вы будете вправе его отозвать в любое время без дополнительной оплаты при помощи отказа от наших Сервисов здесь. 
+5. Почему мы обрабатываем Ваши персональные данные?
+Мы будем собирать и использовать Ваши персональные данные (как это описывается в разделе 4) только в соответствии с применимыми законами о защите персональных данных. Основаниями для осуществления нами обработки Ваших персональных данных являются:
+Согласие – В необходимых случаях мы соберем и обработаем Ваши персональные данные, только если Вы дали нам свое четкое и утвердительное согласие на это. 
+Законные интересы – Мы можем использовать и обрабатывать некоторые Ваши персональные данные в случаях, когда у нас есть разумные и законные деловые основания для этого. В соответствии с европейскими законами о конфиденциальности существует понятие “законные интересы” как оправдание обработки Ваших персональных данных. Наши законные интересы в обработке Ваших персональных данных заключаются в том, чтобы предоставить Вам доступ к нашим Сервисам и возможность их использования, чтобы связываться с Вами по поводу наших Сервисов и чтобы улучшить наши Сервисы. 
+6. С кем мы делимся Вашими персональными данными?
+Когда Вы используете любой из наших Сервисов, мы можем раскрыть Ваши персональные данные следующим лицам:
+a. компаниям нашей группы, сторонним поставщикам услуг и партнерам, которые оказывают нам услуги обработки данных, включая тех, кто расположен за пределами территории Вашего проживания. Например, чтобы поддерживать предоставление, обеспечить функциональность или помощь в улучшении безопасности наших Служб, или которые иначе обрабатывают персональные данные в целях, которые описаны в настоящей Политике конфиденциальности, или о которых Вам сообщат, когда мы будем собирать Ваши персональные данные.
+b. любому компетентному правоохранительному органу, регулятивному, правительственному органу власти, суду или другой третьей стороне, которой, как мы полагаем, необходимо раскрыть такие данные.
+c. любому другому лицу с Вашего согласия на раскрытие.
+7. Какие cookie файлы мы используем?
+Куки (сookie) - очень маленький текстовый файл, размещаемый на Вашем компьютере или устройстве. Мы и наши партнеры используем куки файлы и подобные технологии, чтобы предоставлять и персонализировать наши Сервисы, чтобы проанализировать использование, целенаправленно демонстрировать рекламу и предотвращать мошенничество. Вы можете отключить куки файлы в своем браузере или настройках устройства, но некоторые части наших Сервисов могут тогда функционировать неправильно.
+8. Какие рекламные объявления мы показываем в наших Сервисах?
+Рекламные объявления, которые Вы видите на экране в наших Сервисах, предоставлены от нашего имени определенными сторонними рекламными агентствами. Никакая информация, которая идентифицирует Вас, например, Ваше имя, адрес, адрес электронной почты или телефонный номер, не используется, чтобы продемонстрировать эту рекламу. Чтобы показать рекламное объявление, которое наиболее вероятно относится к Вам, эти сторонние рекламодатели могут поместить или распознать уникальный куки файл в Вашем браузере. Этот куки файл не собирает Ваши персональные данные, а также он не соединен ни с какой идентифицируемой информацией о Вас. Используя наши Сервисы, Вы соглашаетесь на использование этих сторонних файлов куки в этих целях.
+9. Какие шаги мы предпринимаем, чтобы бережно хранить Ваши персональные данные?
+Безопасность Ваших персональных данных очень важна для нас. Поэтому, когда это будет актуально, мы используем HTTPS, чтобы помочь сохранять информацию о Вас в тайне. Однако, никакую передачу данных по Интернету нельзя гарантировать, как полностью безопасную.
+Мы прилагаем все усилия, чтобы хранить информацию, которую Вы раскрываете нам, в строгой конфиденциальности. Однако мы не можем гарантировать или подтвердить безопасность любой информации, которую Вы отправляете нам, и Вы делаете это на Ваш страх и риск. Используя наши Сервисы Вы принимаете неотъемлемые риски предоставления информации онлайн, и вы не будете возлагать на нас ответственность за какое бы то ни было нарушение безопасности.
+10. Сколько времени мы храним Ваши персональные данные?
+Если иное не потребуется или законом не разрешен более длительный период хранения, мы будем хранить Ваши персональные данные на протяжении такого срока, коль скоро это будет необходимо, чтобы достигнуть цели, описанные в Политике конфиденциальности и для наших законных бизнес-целей, например, чтобы исполнить наши юридические обязательства, разрешить споры и принудительно исполнить наши соглашения.
+11. Передаем ли мы Ваши персональные данные за пределы страны, резидентом которой Вы являетесь?
+Наши Сервисы носят глобальный характер по своей природе, и Ваши персональные данные могут быть переданы и обработаны в иных странах, помимо страны, резидентом которой Вы являетесь. В этих странах могут существовать законы о защите данных, которые отличаются от законов Вашей страны. Мы предпринимаем шаги, чтобы обеспечить соответствующую защиту Ваших данных, как это объяснено в нашей Политике конфиденциальности. Соответствующие гарантии, которые могут использовать наши партнеры, включают в себя стандартные пункты договора, утвержденные Комиссией ЕС и сертификатом Щит Конфиденциальности (Privacy Shield), в случае передачи в США.
+12. Ограничение по возрасту
+Мы сознательно не собираем и не запрашиваем персональных данных о прямой рекламе или персонализированной рекламе, в отношении любых лиц моложе 16 лет, и сознательно не позволяем использовать наши Сервисы таким лицам. Если Вы узнаете, что Ваш ребенок предоставил нам персональные данные без Вашего согласия, Вы можете предупредить нас по электронному адресу: chiglintsev13@gmail.com. Если мы узнаем, что мы собрали персональные данные от детей моложе 16 лет, то мы быстро предпримем шаги, чтобы удалить такие данные, как только это реально станет возможным.
+13. Ваши права в отношении персональных данных и как связаться с нами
+Вы имеете определенные права в соответствии с существующим законодательством о защите персональных данных, включая право запросить копию персональных данных, которыми мы владеем в отношении Вас, если Вы запросите ее у нас в письменной форме. 
+Право получить доступ: право запросить копию Ваших персональных данных у нас;
+Право внести исправления: право внести исправления в Ваши персональные данные, если они неточны или неполны;
+Право удалить: право потребовать, чтобы мы удалили или убрали Ваши персональные данные из наших систем;
+Право ограничить использование Вашей информации нами: право помешать нам использовать Ваши персональные данные или ограничить способы, которыми мы можем их использовать;
+Право на мобильность данных: право потребовать, чтобы мы переместили, скопировали или передали Ваши персональные данные;
+Право возразить: право возразить против использования нами Ваших персональных данных, включая случаи, когда мы используем их для наших законных интересов.
+Чтобы сделать запрос, воспользоваться любым из Ваших прав, приведенных в настоящей Политике конфиденциальности и/или направить жалобу, пожалуйста, свяжитесь с нами по электронному адресу: chiglintsev13@gmail.com 
+14. Изменения данной Политики конфиденциальности
+Мы оставляем за собой право внести исправления или изменения в данную Политику конфиденциальности в любое время, и любые изменения будут опубликованы в наших Сервисах. Дата новой версии появится на этой странице. Если мы внесем существенные изменения в данную политику, мы можем также уведомить Вас об этом другими средствами, например, электронным письмом. Когда это требуется согласно закону, мы получим Ваше согласие на внесение этих изменений. Если Вы не соглашаетесь с любыми изменениями, не продолжайте использовать наши Сервисы
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="12" name="ArialMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LyY-IS-vvy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LyY-IS-vvy" firstAttribute="trailing" secondItem="98o-xh-sLM" secondAttribute="trailing" constant="16" id="9ci-65-AR2"/>
+                            <constraint firstItem="FE4-eF-71E" firstAttribute="top" secondItem="98o-xh-sLM" secondAttribute="bottom" constant="16" id="IFQ-uS-2vL"/>
+                            <constraint firstItem="fVr-vV-jm2" firstAttribute="leading" secondItem="LyY-IS-vvy" secondAttribute="leading" constant="16" id="LBU-l4-v7l"/>
+                            <constraint firstItem="FE4-eF-71E" firstAttribute="centerX" secondItem="vdZ-5z-yGC" secondAttribute="centerX" id="SHh-l0-H2T"/>
+                            <constraint firstItem="fVr-vV-jm2" firstAttribute="top" secondItem="FE4-eF-71E" secondAttribute="bottom" constant="16" id="ceF-MK-wpE"/>
+                            <constraint firstItem="fVr-vV-jm2" firstAttribute="bottom" secondItem="LyY-IS-vvy" secondAttribute="bottom" id="ceX-xp-t2C"/>
+                            <constraint firstItem="FE4-eF-71E" firstAttribute="top" secondItem="LyY-IS-vvy" secondAttribute="top" constant="64" id="fJr-N0-JlJ"/>
+                            <constraint firstItem="LyY-IS-vvy" firstAttribute="trailing" secondItem="fVr-vV-jm2" secondAttribute="trailing" constant="16" id="yq3-77-4gv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLI-Gn-Bs6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-796.26168224299056" y="-660.25917926565876"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="gTl-Tx-Fcy">
             <objects>
@@ -61,7 +323,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDo-Oh-aPU">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDo-Oh-aPU">
                                 <rect key="frame" x="16" y="558" width="396" height="60"/>
                                 <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -73,10 +335,9 @@
                                 </state>
                                 <connections>
                                     <action selector="regButtton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Kh-MS-Bdj"/>
-                                    <segue destination="jMC-dY-mFz" kind="show" id="lK0-L4-oAb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icz-tZ-BGZ">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icz-tZ-BGZ">
                                 <rect key="frame" x="16" y="634" width="396" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="MY7-Wj-7jl"/>
@@ -87,12 +348,11 @@
                                 </state>
                                 <connections>
                                     <action selector="logButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iBs-rH-58x"/>
-                                    <segue destination="Ksk-Jh-Y3I" kind="show" id="RAs-Q5-mAs"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Holder." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM5-n8-fAH">
-                                <rect key="frame" x="69.666666666666657" y="275.66666666666669" width="288.66666666666674" height="97"/>
-                                <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="80"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GetOwner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM5-n8-fAH">
+                                <rect key="frame" x="34" y="281.66666666666669" width="360.33333333333331" height="85"/>
+                                <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="70"/>
                                 <color key="textColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -127,7 +387,7 @@
         <!--Регистрация-->
         <scene sceneID="Z4m-y7-WtQ">
             <objects>
-                <viewController id="jMC-dY-mFz" customClass="PhoneViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="reg" id="jMC-dY-mFz" customClass="PhoneViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lFD-Tg-tAX">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,11 +449,11 @@
             <objects>
                 <viewController id="YBT-oQ-cxh" customClass="PhoneACKViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="viQ-4P-R50">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="000000" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WEb-8K-fEm">
-                                <rect key="frame" x="32" y="416.33333333333331" width="175.33333333333334" height="49.666666666666686"/>
+                                <rect key="frame" x="32" y="352.33333333333331" width="175.33333333333334" height="49.666666666666686"/>
                                 <color key="tintColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="40"/>
@@ -203,7 +463,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Код из смс" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYE-3G-wHh">
-                                <rect key="frame" x="32" y="384" width="108" height="24.333333333333314"/>
+                                <rect key="frame" x="32" y="320" width="108" height="24.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="20"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -244,11 +504,11 @@
             <objects>
                 <viewController id="jdz-bo-Ily" customClass="NameViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4BM-PD-X32">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Имя" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rba-xI-eny">
-                                <rect key="frame" x="20" y="416.33333333333331" width="84" height="49.666666666666686"/>
+                                <rect key="frame" x="20" y="352.33333333333331" width="84" height="49.666666666666686"/>
                                 <color key="tintColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="40"/>
@@ -258,7 +518,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="507-dl-Tcb">
-                                <rect key="frame" x="20" y="800" width="388" height="60"/>
+                                <rect key="frame" x="20" y="746" width="388" height="60"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Vdj-w5-Awi"/>
@@ -272,7 +532,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как Вас зовут?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfI-vy-sLg">
-                                <rect key="frame" x="20" y="362.33333333333331" width="133.66666666666666" height="22"/>
+                                <rect key="frame" x="20" y="298.33333333333331" width="133.66666666666666" height="22"/>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="18"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -318,17 +578,17 @@
             <objects>
                 <viewController id="kd0-73-gxL" customClass="PhotoViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zg7-UK-uIU">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как вы выглядите?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMX-Dd-XgR">
-                                <rect key="frame" x="20" y="302.66666666666669" width="169.33333333333334" height="22"/>
+                                <rect key="frame" x="20" y="278.33333333333331" width="169.33333333333334" height="22"/>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="18"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7D-Nw-Bjy">
-                                <rect key="frame" x="20" y="356.66666666666669" width="120" height="120"/>
+                                <rect key="frame" x="20" y="332.33333333333331" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="ilw-6i-ek7"/>
                                     <constraint firstAttribute="width" constant="120" id="pjo-K6-saR"/>
@@ -340,7 +600,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBf-HU-cjs">
-                                <rect key="frame" x="170" y="863" width="88" height="31"/>
+                                <rect key="frame" x="170" y="809" width="88" height="31"/>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="15"/>
                                 <state key="normal" title="Пропустить">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -350,7 +610,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aY-Zn-Eyl">
-                                <rect key="frame" x="16" y="787" width="393" height="60"/>
+                                <rect key="frame" x="16" y="733" width="393" height="60"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="2rz-Ua-qXZ"/>
@@ -475,8 +735,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jj6-Ol-NHc">
-                                        <rect key="frame" x="366" y="16" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <rect key="frame" x="316" y="16" width="96" height="33"/>
+                                        <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="17"/>
+                                        <state key="normal" title="Сохранить">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="saveButton:" destination="87A-dP-r2t" eventType="touchUpInside" id="xlT-Au-Gan"/>
                                         </connections>
@@ -675,7 +938,7 @@
                                             <constraint firstAttribute="height" constant="32" id="ZMl-uT-arh"/>
                                         </constraints>
                                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="x">
+                                        <state key="normal" image="cancel">
                                             <color key="titleColor" red="0.1254901886" green="0.1254901886" blue="0.1254901886" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -1135,11 +1398,16 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ER-0c-Au8">
-                                        <rect key="frame" x="331" y="16" width="81" height="33"/>
-                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="17"/>
-                                        <state key="normal" title="изменить">
+                                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ER-0c-Au8">
+                                        <rect key="frame" x="372" y="16" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ASC-IC-dEA"/>
+                                            <constraint firstAttribute="width" constant="40" id="M2A-Fw-kAW"/>
+                                        </constraints>
+                                        <state key="normal" image="pencil-create">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                         </state>
                                         <connections>
                                             <action selector="change:" destination="7DA-sA-NDg" eventType="touchUpInside" id="Gi8-s6-j55"/>
@@ -1594,7 +1862,7 @@
         <!--Вход-->
         <scene sceneID="cCB-DC-YvJ">
             <objects>
-                <viewController id="Ksk-Jh-Y3I" customClass="PhoneLoginViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="log" id="Ksk-Jh-Y3I" customClass="PhoneLoginViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aoc-aV-RXm">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1652,11 +1920,11 @@
             <objects>
                 <viewController interfaceStyle="light" id="Zcy-9R-xCd" customClass="ACKViewController" customModule="Holder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qSH-2V-j9u">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="000000" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fLx-Vx-LmY">
-                                <rect key="frame" x="20" y="367.33333333333331" width="175.33333333333334" height="49.666666666666686"/>
+                                <rect key="frame" x="20" y="310.33333333333331" width="175.33333333333334" height="49.666666666666686"/>
                                 <color key="tintColor" red="0.1686274707" green="0.1686274707" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="40"/>
@@ -1666,7 +1934,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Код из смс" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNZ-NZ-sSS">
-                                <rect key="frame" x="20" y="335" width="108" height="24.333333333333314"/>
+                                <rect key="frame" x="20" y="278" width="108" height="24.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="20"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1702,15 +1970,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0sZ-KM-jYP"/>
-        <segue reference="cTX-Pz-myY"/>
-        <segue reference="QAG-px-duY"/>
-        <segue reference="Hu8-EQ-Fjg"/>
-        <segue reference="Glc-yv-uOa"/>
+        <segue reference="gCC-G6-Ncj"/>
+        <segue reference="97U-ed-O9c"/>
+        <segue reference="DXA-U4-eWp"/>
+        <segue reference="Y8S-cb-EXf"/>
+        <segue reference="Vqe-TV-Y07"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="call-phone" width="20" height="20"/>
+        <image name="cancel" width="20" height="20"/>
         <image name="jo" width="1200" height="917"/>
+        <image name="pencil-create" width="24" height="24"/>
         <image name="question" width="20" height="20"/>
         <image name="search" width="20" height="20"/>
         <image name="user" width="20" height="20"/>

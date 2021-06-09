@@ -298,6 +298,9 @@ class ProfileViewController: UIViewController {
     
     
     func setupUI() {
+        changeButton.layer.cornerRadius = changeButton.frame.height/2
+        changeButton1.layer.cornerRadius = changeButton1.frame.height/2
+        changeButton1.clipsToBounds = true
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
                 case 1136: // айфоны пятые и SE
