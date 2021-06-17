@@ -98,6 +98,7 @@
 		5E7D6BC125D7CD6D005F32DF /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.otf"; path = "../../Inter/Inter-Medium.otf"; sourceTree = "<group>"; };
 		5E8C405B25C07EBA004A6025 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5E8C406025C08941004A6025 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		5EA8CFD0267B8B5100AF9511 /* Holder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Holder.entitlements; sourceTree = "<group>"; };
 		5EB39F0425D5996900530580 /* PhoneLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLoginViewController.swift; sourceTree = "<group>"; };
 		5EB39F0925D5997D00530580 /* ACKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKViewController.swift; sourceTree = "<group>"; };
 		5EE5F048255EBE0300499EE4 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
@@ -227,6 +228,7 @@
 		5E4EEF22255E94FE004FD05F /* Holder */ = {
 			isa = PBXGroup;
 			children = (
+				5EA8CFD0267B8B5100AF9511 /* Holder.entitlements */,
 				5E4EEF23255E94FE004FD05F /* AppDelegate.swift */,
 				5E4EEF25255E94FE004FD05F /* SceneDelegate.swift */,
 				5E176ADA256E670700F6E9CD /* Model */,
@@ -785,14 +787,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Holder/Holder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SS6B3R3J6N;
+				DEVELOPMENT_TEAM = DGYH6T768Y;
 				INFOPLIST_FILE = Holder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmxm.Holder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmxm.getOwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -805,14 +808,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Holder/Holder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SS6B3R3J6N;
+				DEVELOPMENT_TEAM = DGYH6T768Y;
 				INFOPLIST_FILE = Holder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosmxm.Holder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosmxm.getOwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
